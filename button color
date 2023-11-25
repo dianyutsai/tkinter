@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 import tkinter as tk
-win = tk.Tk()
+win = tk.Tk()# or Tk()
 
-win.title('tkinter gui')
+win.title('tkinter gui')#title is 'tkinter gui'
 win.geometry('400x200')
 
 
-btn = tk.Button(text='click me')
+btn = tk.Button(text='click me')#button text 'clickerme'
 btn.config(bg='skyblue')#color
-btn.config(width=10,height=5)
-btn.pack()
+btn.config(width=10,height=5)#width = (),height = ()
+btn.pack()#pack
 
 win.mainloop()
