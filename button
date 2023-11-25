@@ -1,15 +1,21 @@
 import tkinter as tk
 #top=最上面 left=左邊 right=右邊 bottom=下面
+
+#first button
 test = tk.Button(text="test")
 test.pack(side="top")
 
+#2 button
 test2 = tk.Button(text="test2")
 test2.pack(side="right")
 
+#3 button
 test3 = tk.Button(text="test3")
 test3.pack(side="left")
+#4 button
 
 test4 = tk.Button(text="test4")
 test4.pack(side="bottom")
 
+#start (There must be)
 tk.mainloop()
